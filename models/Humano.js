@@ -9,4 +9,4 @@ const HumanoSchema = new Schema([{
     creado: { type: Date, default: Date.now }
 }])
 
-module.exports = Humano = mongoose.model('humans', HumanoSchema)
+module.exports = Humano = mongoose.model('humanitos', HumanoSchema)
